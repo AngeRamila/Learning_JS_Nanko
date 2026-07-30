@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <script type="text/javascript">
+    function CalculateArea(shape, a, b)
+    {
+        let shapes =;
+        shapes.toLowerCase(...shape);
+        if (shape === "rectangle"){
+            return (a*b);
+        } else if (shape ==="square"){
+            return (a*a);
+        } else if (shape=== "triangle"){
+            return (0.5)*(a* b);
+        } else if (shape ==="circle"){
+            return (Math.PI )* (a * a);
+        } else {
+            return "Unknown Shape";
+        }
+    }
+    console.log(CalculateArea("rectangle", 5, 4));
+    console.log(CalculateArea("Square", 6));
+    console.log(CalculateArea("triangle",8, 5));
+    console.log(CalculateArea("Circle", 2, 5));
+ </script>   
+</head>
+<body>
+    
+</body>
+</html>

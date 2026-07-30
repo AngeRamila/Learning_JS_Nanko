@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        // console.log(5+4);
+        // let num=1;
+        // console.log(num, typeof num);
+        // const num2=0b100;
+        // console.log(num2, typeof num2);
+        // const num3=23344452e10;
+        // console.log(num3, typeof num3);
+        // const num4=0o4353;
+        // console.log(num4, typeof num4);
+        // const num5=0x235f;
+        // console.log(num5, typeof num5);
+        // const str= "Ange";
+        // console.log(str);
+        //  const str= 'apple';
+        
+        let secret =
+        Math.floor(Math.random()* 10)+1;
+        let guess;
+        while (guess !=secret) {
+            guess= Number(prompt("Guess a number between 1 and 10"));
+               if(guess > secret){
+                  alert("Too High!");
+               } else if (guess < secret){
+                  alert("Too Low!");
+               } else {
+                alert("Congratulations! You guessed correctly.");
+                break;
+               }
+           }
+    
+
+
+        
+
+
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>
