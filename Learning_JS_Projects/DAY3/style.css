@@ -39,3 +39,16 @@ align-items: center;
     line-height: 1.5;
     margin-bottom: 20px;
 }
+/* The main row container */
+.Plan {
+    display: flex;
+    flex-direction: row;          /* Puts icon, description, and change link in a row */
+    justify-content: space-between;/* Pushes Icon/Text to the left and "Change" link to the far right */
+    align-items: center;          /* Centers all three items vertically */
+    background-color: hsl(225, 100%, 98%);/* Very light blue background */
+    padding: 16px;                /* Inner spacing so items don't touch the borders */
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+/* The music icon wrapper *
