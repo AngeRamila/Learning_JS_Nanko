@@ -76,3 +76,15 @@ align-items: center;
     color: hsl(224, 23%, 55%);
     margin: 3px 0 0 0;            /* Small gap below the heading */
 }
+/* The Change Link */
+.Change a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.Change a:hover {
+    text-decoration: none;
+    color: hsl(245, 83%, 68%);    /* Slight color shift on hover */
+}
