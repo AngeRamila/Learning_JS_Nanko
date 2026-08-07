@@ -50,5 +50,9 @@ align-items: center;
     border-radius: 12px;
     margin-bottom: 25px;
 }
-
-/* The music icon wrapper *
+/* The music icon wrapper */
+.icon img {
+    width: 48px;
+    height: 48px;
+    display: block;
+}
