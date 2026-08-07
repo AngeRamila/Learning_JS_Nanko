@@ -55,4 +55,24 @@ align-items: center;
     width: 48px;
     height: 48px;
     display: block;
+}/* The middle text block */
+.Description {
+    margin-left: 20px;            /* Pushes the text away from the music icon */
+    text-align: left;
+    flex: 1;                      /* Grabs remaining space to push "Change" to the right */
+}
+
+/* Heading inside description */
+.Description h2 {
+    font-size: 16px;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+    margin: 0;                    /* Clears default browser margins */
+}
+
+/* Price inside description */
+.Description p {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    margin: 3px 0 0 0;            /* Small gap below the heading */
 }
