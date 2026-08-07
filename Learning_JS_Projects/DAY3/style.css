@@ -13,3 +13,10 @@ display: flex;
 justify-content: center;
 align-items: center; 
 }
+.main-container{
+    width: 350px;
+    background-color:white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align:center;
+}
