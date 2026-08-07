@@ -88,3 +88,17 @@ align-items: center;
     text-decoration: none;
     color: hsl(245, 83%, 68%);    /* Slight color shift on hover */
 }
+button{  
+    margin: 5px;
+    width: 300px;
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    border:none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#last{
+    margin-bottom: 20px;
+}
