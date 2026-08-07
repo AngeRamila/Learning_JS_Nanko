@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+background-image: url("pattern-background-desktop.svg");
+background-repeat: no-repeat;
+background-color: hsl(225, 100%, 94%);
+font-family: "RED HAT DISPLAY";
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+.main-container{
+    width: 350px;
+    background-color:white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align:center;
+}
+.top img{ 
+    width: 100%; 
+    display:block;
+}
+.buttom {
+    background-color:hsl(225, 100%, 98%) ;
+    padding: 30px;
+    border-radius: 20px;
+}
+.buttom h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.buttom p{
+    color:hsl(224, 23%, 55%);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+/* The main row container */
+.Plan {
+    display: flex;
+    flex-direction: row;          /* Puts icon, description, and change link in a row */
+    justify-content: space-between;/* Pushes Icon/Text to the left and "Change" link to the far right */
+    align-items: center;          /* Centers all three items vertically */
+    background-color: hsl(225, 100%, 98%);/* Very light blue background */
+    padding: 16px;                /* Inner spacing so items don't touch the borders */
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+/* The music icon wrapper */
+.icon img {
+    width: 48px;
+    height: 48px;
+    display: block;
+}
+
+/* The middle text block */
+.Description {
+    margin-left: 20px;            /* Pushes the text away from the music icon */
+    text-align: left;
+    flex: 1;                      /* Grabs remaining space to push "Change" to the right */
+}
+
+/* Heading inside description */
+.Description h2 {
+    font-size: 16px;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+    margin: 0;                    /* Clears default browser margins */
+}
+
+/* Price inside description */
+.Description p {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    margin: 3px 0 0 0;            /* Small gap below the heading */
+}
+
+/* The Change Link */
+.Change a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.Change a:hover {
+    text-decoration: none;
+    color: hsl(245, 83%, 68%);    /* Slight color shift on hover */
+}
+button{  
+    margin: 5px;
+    width: 300px;
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    border:none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#last{
+    margin-bottom: 20px;
+}
