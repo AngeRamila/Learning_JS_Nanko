@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Area Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="calculator">
+
+            <div class="header">
+
+                <div class="icon">📐</div>
+
+                <h1>Area Calculator</h1>
+
+                <p>
+                    Calculate the area of different shapes
+                    quickly and easily.
+                </p>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="shape">
+                    Select a Shape
+                </label>
+
+                <select id="shape">
+
+                    <option value="square">
+                        🔲 Square
+                    </option>
+
+                    <option value="rectangle">
+                        ▭ Rectangle
+                    </option>
+
+                    <option value="triangle">
+                        🔺 Triangle
+                    </option>
+
+                    <option value="circle">
+                        ⚪ Circle
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div id="inputs">
+
+                <div class="form-group">
+
+                    <label for="value1">
+                        Side
+                    </label>
+
+                    <input
+                        type="number"
+                        id="value1"
+                        placeholder="Enter side"
+                        min="0"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <button id="calculateButton">
+                Calculate Area
+            </button>
+
+
+            <div id="result" class="result">
+
+                <span>📊</span>
+
+                <p>
+                    Enter your measurements
+                    to calculate the area.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
